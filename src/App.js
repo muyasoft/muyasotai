@@ -13,6 +13,18 @@ import Credits from "./pages/crm/Credits";
 import ApiKeys from "./pages/crm/ApiKeys";
 import Settings from "./pages/crm/Settings";
 import { Toaster } from "./components/ui/sonner";
+import AiCallCenter from "./pages/AiCallCenter";
+{/* AI Call Center Page */}
+<Route
+  path="/ai-call-center"
+  element={
+    <>
+      <AiCallCenter />
+      <Toaster />
+    </>
+  }
+/>
+
 
 function App() {
   return (
